@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a collection of embedded programming projects developed for the **Programmeerproject Embedded** course (Academic Year 2023-2024) at Karel de Grote Hogeschool.
+This repository contains a collection of embedded programming projects developed for the **Programmeerproject Embedded** course (Academic Year 2024-2025) at Karel de Grote Hogeschool.
 
 ## Project Structure
 
