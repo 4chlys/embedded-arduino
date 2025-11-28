@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "djcontrollerarduino"
+		},
+		{
+			"path": "lib"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"interrupt.h": "c",
+			"display.h": "c"
+		}
+	}
+}

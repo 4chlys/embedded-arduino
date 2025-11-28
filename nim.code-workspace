@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "nim"
+		},
+		{
+			"path": "lib"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"buttons.h": "c"
+		}
+	}
+}

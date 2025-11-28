@@ -1,0 +1,68 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/djcontrollerarduino/include",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/djcontrollerarduino/src",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/sound",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/potentiometer",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/buttons",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/usart",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/playlist",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/leds",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/display",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/commands",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/.vscode",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/dirent",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/random",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/utils",
+                "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/djcontrollerarduino/.pio/libdeps/uno/Unity/src",
+                "C:/Users/romeo/.platformio/lib/utils",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/djcontrollerarduino/include",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/djcontrollerarduino/src",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/sound",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/potentiometer",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/buttons",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/usart",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/playlist",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/leds",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/display",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/commands",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/.vscode",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/dirent",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/random",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/lib/utils",
+                    "C:/Users/romeo/OneDrive/Documents/PlatformIO/Projects/projects/djcontrollerarduino/.pio/libdeps/uno/Unity/src",
+                    "C:/Users/romeo/.platformio/lib/utils",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=16000000L",
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_UNO",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "C:/Users/romeo/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

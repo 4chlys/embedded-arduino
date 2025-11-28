@@ -1,0 +1,272 @@
+/*
+ * DJController.css
+ * Inspired by Serato and Rekordbox interfaces
+ */
+
+/* ------- Global Styles ------- */
+
+.root {
+    -fx-background-color: #1e1e1e;  /* Dark background */
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+    -fx-text-fill: #e0e0e0;
+    -fx-focus-color: #00c8ff;  /* Bright blue for focus */
+    -fx-faint-focus-color: #00c8ff22;
+}
+
+.label {
+    -fx-text-fill: #e0e0e0;
+}
+
+/* ------- Connection Controls Section ------- */
+
+.combo-box {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-mark-color: #00c8ff;  /* Dropdown arrow color */
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #262626;
+    -fx-border-color: #555555;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #00c8ff44;
+}
+
+.combo-box-popup .list-cell:filled:selected {
+    -fx-background-color: #00c8ff;
+    -fx-text-fill: black;
+}
+
+.button {
+    -fx-background-color: #454545;
+    -fx-text-fill: white;
+    -fx-background-radius: 3px;
+    -fx-padding: 5px 15px;
+    -fx-border-color: #555555;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #555555;
+}
+
+.button:pressed {
+    -fx-background-color: #333333;
+}
+
+.toggle-button {
+    -fx-background-color: #454545;
+    -fx-text-fill: white;
+    -fx-background-radius: 3px;
+    -fx-padding: 5px 15px;
+    -fx-border-color: #555555;
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+}
+
+.toggle-button:hover {
+    -fx-background-color: #555555;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #00c8ff;
+    -fx-text-fill: black;
+}
+
+.separator:vertical .line {
+    -fx-border-color: #555555;
+    -fx-border-width: 0 0 0 1;
+}
+
+/* ------- Playlist Section ------- */
+
+.track-info-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+.list-view {
+    -fx-background-color: #262626;
+    -fx-control-inner-background: #262626;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-border-color: #555555;
+}
+
+.list-cell {
+    -fx-background-color: #262626;
+    -fx-text-fill: #e0e0e0;
+    -fx-padding: 8px;
+    -fx-border-color: transparent transparent #555555 transparent;
+}
+
+.list-cell:even {
+    -fx-background-color: #2a2a2a;
+}
+
+.list-cell:selected {
+    -fx-background-color: #00c8ff44;
+    -fx-text-fill: white;
+}
+
+.list-cell:empty {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* Playlist control buttons */
+.playlist-button {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-background-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px 10px;
+}
+
+.playlist-button:hover {
+    -fx-background-color: #444444;
+}
+
+/* ------- Playback Controls Section ------- */
+
+/* Time display */
+.time-label {
+    -fx-font-family: 'Consolas', 'Courier New', monospace;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00eaff;
+    -fx-padding: 0 10 0 10;
+}
+
+/* Slider track */
+.slider {
+    -fx-control-inner-background: #333333;
+    -fx-background-color: #333333;
+}
+
+.slider .track {
+    -fx-background-color: #333333;
+    -fx-background-radius: 0;
+    -fx-pref-height: 6px;
+}
+
+.slider .thumb {
+    -fx-background-color: #00c8ff;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 16px;
+    -fx-pref-width: 16px;
+}
+
+/* Seek slider specific */
+.seek-slider .track {
+    -fx-background-color: linear-gradient(to right, #00c8ff44, #00c8ff);
+    -fx-pref-height: 8px;
+}
+
+.seek-slider .thumb {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+/* Volume slider */
+.volume-slider .track {
+    -fx-background-color: linear-gradient(to right, #00ff0088, #ffff0088, #ff000088);
+    -fx-pref-height: 6px;
+}
+
+.progress-bar {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: #333333;
+    -fx-accent: #00c8ff;
+}
+
+.progress-bar > .track {
+    -fx-background-color: #333333;
+    -fx-background-radius: 0;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(to right, #00c8ff88, #00c8ff);
+    -fx-background-radius: 0;
+}
+
+/* Transport control buttons */
+.transport-button {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-background-radius: 50%;
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-max-width: 40px;
+    -fx-max-height: 40px;
+    -fx-padding: 0;
+    -fx-alignment: center;
+    -fx-content-display: center;
+    -fx-border-color: #555555;
+    -fx-border-radius: 50%;
+}
+
+.transport-button:hover {
+    -fx-background-color: #444444;
+}
+
+.play-button {
+    -fx-background-color: #00c8ff44;
+    -fx-text-fill: white;
+    -fx-border-color: #00c8ff;
+    -fx-font-size: 20px;
+}
+
+.play-button:hover {
+    -fx-background-color: #00c8ff77;
+}
+
+/* ------- Containers and Layout ------- */
+
+/* Top section - Connection controls */
+.connection-controls {
+    -fx-background-color: #2a2a2a;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-border-color: #555555;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* Center section - Playlist */
+.playlist-section {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
+
+/* Bottom section - Playback controls */
+.playback-controls {
+    -fx-background-color: #2a2a2a;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-border-color: #555555;
+    -fx-border-width: 1 0 0 0;
+}
+
+/* Control sections */
+.control-section {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+/* Status label */
+.status-label {
+    -fx-text-fill: #aaaaaa;
+    -fx-font-style: italic;
+}
